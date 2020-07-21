@@ -1,11 +1,11 @@
 class Config(object):
-    TOKEN_URL = 'http://www.gtpro.in/api/session?token=F5iGOEdA0HY3JMQs3uekEiNOrIZIlJRw'
+    TOKEN_URL = 'http://www.gtpro.in/api/session?token=IYJi9hjrcU2a7XIFWjXcGvUfquwf4wqT'
     POSITION_URL = 'http://www.gtpro.in/api/positions'
     EXT_URL = 'http://103.231.40.50:5175'
     SECRET_KEY = '4876eb05-fe5e-4583-b7bf-965624aec847'
     DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
     DEBUG = True
-    DATA_REFRESH_FRQUENCY = 15
+    DATA_REFRESH_FRQUENCY = 30
     IMEI_MAP = {
         12: '459710040772569',
         14: '868003032451697',

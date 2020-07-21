@@ -57,6 +57,7 @@ def get_device_position_map():
 @app.before_first_request
 def update_map():
     app.logger.info('Traccar Middleware Service')
+    update_session_id(True)
     def run_job():
         while True:
             update_frequency = app.config['DATA_REFRESH_FRQUENCY']
